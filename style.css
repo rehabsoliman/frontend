@@ -1,0 +1,93 @@
+
+@media (max-width: 166px){
+  body{
+      zoom: 17%;
+  }
+}
+@media (min-width: 167px) and (max-width: 249px){
+  body{
+      zoom: 20%;
+  }
+}
+@media (min-width: 250px) and (max-width: 329px){
+  body{
+      zoom: 30%;
+  }
+}
+/* Mobile Devices */
+@media (min-width: 320px) and (max-width: 480px){
+  body{
+      zoom: 40%;
+  }
+}
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px){
+  body{
+      zoom: 60%;
+  }
+}
+/* Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px){
+  body{
+      zoom: 70%;
+  }
+}
+
+/* Desktops, large screens */
+
+@media (min-width: 1025px) and (max-width: 1200px){
+  body{
+      zoom: 90%;
+  }
+}
+
+/* ? Extra large screens, TV */
+@media (min-width: 1201px){
+  body{
+      zoom: 100%;
+  }
+}
+.header img {
+  margin-top: auto;
+    margin-right: 20px;
+margin-left: 0px;
+float: left;
+width: 40px;
+height: 40px;
+
+}
+
+.header h1 {
+  margin-top: 20px;
+font-style:small;
+font-size: 20px;
+text-align:left;
+}
+
+
+ option {
+  text-align: center;
+  text-align-last: center;
+  } 
+  #player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height:40px;
+    width: 40px;
+    padding: 12px 18px;
+    z-index: 2;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+      background-repeat: no-repeat!important;
+      background-position: center;
+      background-size: 16px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20px;
+    background-color: gainsboro;
+  }
+  .play {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  }
+  .pause {
+     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+  }
